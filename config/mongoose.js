@@ -4,7 +4,7 @@ const db = mongoose.connection;
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect(`mongodb://127.0.0.1:27017/ds-blog`);
+  await mongoose.connect(`mongodb+srv://dharmeshkota123:D_Kota-14@cluster0.i612v0k.mongodb.net/?retryWrites=true&w=majority`);
   console.log("Successlly Connected to Database...!");
 }
 
