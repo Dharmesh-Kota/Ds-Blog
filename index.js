@@ -76,7 +76,7 @@ app.use(session({
     },
     // storing the cookie-data in mongo db
     store: MongoStore.create({
-        mongoUrl: 'mongodb://127.0.0.1:27017/ds-blog',
+        mongoUrl: 'mongodb+srv://dharmeshkota123:becXXF7CLWerAEED@cluster0.i612v0k.mongodb.net/?retryWrites=true&w=majority',
         autoRemove: 'disabled'
     }, function(err){
         console.log(err || 'connect-mongo setup ok!!');
