@@ -16,8 +16,6 @@ module.exports.zeller = async function(req, res){
             }
         })
         .populate('likes');
-    
-        console.log(blog.likes.length);
         
         let comments = await Comment.find({})
         .sort('-createdAt')
