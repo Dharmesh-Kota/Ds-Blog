@@ -2,7 +2,7 @@
 
 <div id="container">
     <div id="intro">
-        <%- include('./blogs_likes.ejs', {topic: topic, blog: blog}) %>
+        <%-include('./blogs_likes.ejs', {topic: topic, blog: blog})%>
         <div id="title">
             Zeller's Congrunce
         </div>
@@ -22,5 +22,5 @@
 </div>
 
 <div id="blogs_footer">
-    <%- include('./blogs_footer.ejs', {topic: topic, comments: comments}) %>
+    <%-include('./blogs_footer.ejs', {topic: topic, comments: comments})%>
 </div>
